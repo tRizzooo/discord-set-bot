@@ -1,3 +1,5 @@
+print("BOOT: iniciando bot...")
+
 import discord
 from discord.ext import commands
 import os
