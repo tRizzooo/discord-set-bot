@@ -19,7 +19,7 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 # ========= BOT ONLINE =========
 @bot.event
 async def on_ready():
-    print(f"Bot conectado como {bot.user}")
+    print(f"ONLINE{bot.user}")
 
 # ========= MODAL =========
 class SetModal(discord.ui.Modal, title="Configurar Perfil"):
